@@ -7,3 +7,5 @@ import { BookmarkModule } from './bookmark/bookmark.module';
   imports: [AuthModule, UserModule, BookmarkModule],
 })
 export class AppModule {}
+
+//decorators are just function which add metadata to a class add more properties

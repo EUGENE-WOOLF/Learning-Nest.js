@@ -6,12 +6,7 @@ export class AuthController {
   constructor(private authService: AuthService) {}
 
   @Post('login')
-  signin() {
-    return { message: 'hello user' };
-  }
-
-  @Post('signup')
-  signup() {
-    return 'you have signed up';
+  login() {
+    return 'user has logged in here';
   }
 }
